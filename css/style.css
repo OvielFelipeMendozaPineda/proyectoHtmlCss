@@ -49,3 +49,64 @@ nav{
     gap: 5%;
     color: var(--color-white);
 }
+
+.home{
+
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 90vh;
+}
+
+.home .text{
+    margin: auto;
+
+    
+}
+
+.text h1{
+    color: var(--color-title);
+    font-size: 5vw;
+}
+.text #sentence1{
+    color: var(--color-white);
+    font-size: 2vw;
+}
+.text #sentence2{
+    color: var(--color-white);
+    font-size: 2vw;
+}
+.home .container{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+}
+.mainButton{
+    background: var(--color-title);
+    border: none;
+    width: 180px;
+    height: 40px;
+    font-size: 1.3vw;
+    
+}
+a{
+    text-decoration: none;
+color: var(--color-white);
+}
+
+.image picture{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;    
+}
+
+.image img{
+
+    width: 42vw;
+
+}
