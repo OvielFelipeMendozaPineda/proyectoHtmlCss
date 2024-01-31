@@ -308,3 +308,31 @@ color: var(--color-white);
 .services .service picture img{
     width: 100%
 }
+
+.slogan{
+    width: 100%;
+    height: 45vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1;
+}
+.slogan .container{
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: var(--color-semiWhite);
+    border: 7px double black;
+}
+.slogan .container .text h2{
+    margin: auto;
+    width: 80%;
+    font-size: 3.5rem;
+    color: var(--color-black);
+    font-weight: 300;
+    margin-bottom: 25px;
+}
