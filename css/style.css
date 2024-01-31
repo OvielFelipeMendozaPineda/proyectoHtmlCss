@@ -34,7 +34,7 @@ nav{
     justify-content: flex-start;
 }
 
-.logo h2{
+.logo a {
     color: var(--color-title);
     margin-left: 15%;
     font-size: 2.5rem;
@@ -50,6 +50,9 @@ nav{
     font-size: .8rem;
     gap: 5%;
     color: var(--color-white);
+}
+.menuOps a{
+    font-weight: 500;
 }
 
 .home{
@@ -106,8 +109,8 @@ color: var(--color-white);
 }
 
 .image img{
-
-    width: 42vw;
+    margin-top: 100px;
+    width: 35vw;
 
 }
 
@@ -164,7 +167,8 @@ color: var(--color-white);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 25%) 75%;
-    margin-top: 10vh;
+    margin-top: 14vh;
+    padding-top: 50px;
     
     
 }
@@ -174,6 +178,7 @@ color: var(--color-white);
     width: 50%;
     margin: auto;
     margin-top: 70px;
+    ,margin-bottom: 50px;
     text-align: center;
     padding-bottom: 2rem;
 }
@@ -203,7 +208,7 @@ color: var(--color-white);
 }
 .foodMenu p{
     color: var(--color-white);
-    font-size: 3.5rem;    
+    font-size: 3rem;    
 }
 
 .foodMenu .items{
@@ -216,10 +221,12 @@ color: var(--color-white);
     justify-content: center;
     justify-content: center;
     gap: 5%;
+    margin-top: ;
     
 }
 .foodMenu .item{
     width: 20vw;
+    height: 70vh;
     background: var(--color-semiWhite);
     border: 5px double black;
     text-align: center;
@@ -243,6 +250,7 @@ color: var(--color-white);
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 25%) 75%;
     margin-top: 10vh;
+    margin-bottom: 90px;
     
     
 }
