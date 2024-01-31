@@ -1,0 +1,66 @@
+@media  (max-width: 576px) {
+    hmtl{
+        width: 100%;
+        user-zoom: none;
+    }
+    .menuOps{
+        display: none;
+    }
+    .logo a{
+        font-size: 1rem;
+    }
+    .home{
+        display:flex ;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+    .home .text{
+        height: 50%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .home .text h1{
+        font-size: 3rem;
+        
+    }
+    .home .text #sentence1{
+        font-size: 2.2rem;
+    }
+    .home .text #sentence2{
+        font-size: 2.2rem;
+    }
+    .home .mainButton{
+        background: var(--color-title);
+        border: none;
+        margin: auto;
+        width: 180px;
+        height: 40px;
+        font-size: 1.5rem;
+        
+    }
+    .home .image{
+        height: 100%;
+        margin-top: 5rem;
+    }
+    .home picture{
+        display: flex;
+        align-items: flex-start;
+        width: 20rem;
+    }
+    .home .image img{
+        width: 100%;
+    }
+    footer .container{
+        gap: 0;
+    }
+    .aboutUs{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
