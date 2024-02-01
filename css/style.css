@@ -133,17 +133,17 @@ color: var(--color-white);
     padding-bottom: 200px;
 }
 
-.text h2{
+.aboutUs .text h2{
     color: var(--color-title);
     font-size: 1.5vw;
 }
-.text h3{
+.aboutUs .text h3{
     color: var(--color-white);
     font-size: 3vw;
 }
 
 
-.text #sentence3{
+.aboutUs .text #sentence3{
     color: var(--color-white);
     width: 90%;
     font-size: 1.5vw;
@@ -151,7 +151,7 @@ color: var(--color-white);
     margin-bottom: 0.5rem;
 }
 
-.image picture{
+.aboutUs .image picture{
     display: flex;
     align-items: center;
     width: 100%;
@@ -159,7 +159,7 @@ color: var(--color-white);
 }
 .aboutUs .image img{
     margin-left: 10vw;
-    width: 35vw;
+    width: 30vw;
 
 }
 
@@ -192,7 +192,7 @@ color: var(--color-white);
 }
 .foodMenu h2{
     color: var(--color-black);
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 300;
 }
 
@@ -218,31 +218,41 @@ color: var(--color-white);
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     align-items: center;
+
     justify-content: center;
     justify-content: center;
     gap: 5%;
     
 }
 .foodMenu .item{
-    width: 20vw;
-    height: 70vh;
+    width: 20rem;
+    height: 25rem;
     background: var(--color-semiWhite);
     border: 5px double black;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
-.foodMenu .item picture{
-    width: 90%;
-    margin: 15px;
+    justify-content: space-around;
 }
 
-.foodMenu .item picture img{
-    width: 100%
+.foodMenu .item #main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
 }
+
+.foodMenu .item img{
+    width: 12rem
+}
+.foodMenu .icon-item{
+    width: 2rem;
+    margin-left: 280px;
+
+}
+
 
 .services{
     width: 100%;
@@ -291,14 +301,15 @@ color: var(--color-white);
 
 .services .services-{
     grid-column: 1/4;
-    width: 100%;
+    width: 80%;
     height: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 5%;
+    margin: auto;
     
 }
 .services .service{
@@ -315,7 +326,7 @@ color: var(--color-white);
 }
 
 .services .service picture img{
-    width: 100%
+    width: 14rem
 }
 
 .slogan{
@@ -359,6 +370,7 @@ footer .container{
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    flex-wrap: wrap;
     gap: 10rem
 }
 
