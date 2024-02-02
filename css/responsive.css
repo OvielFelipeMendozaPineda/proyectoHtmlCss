@@ -1,11 +1,62 @@
 @media  (max-width: 576px) {
     hmtl{
         width: 100%;
-        user-zoom: none;
+    }
+    nav{
+        display: block;
+        position: relative;
     }
     .menuOps{
-        display: none;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        position: absolute;
+        background: var(--color-body);
+        width: 100%;
+        height: 30rem;
+        left: 0;
+        right: 0;
+        top: 75px;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease; 
     }
+    .menuOps h2{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 2rem;
+
+    }
+    .menuOps h2 a:hover{
+        border: 1px solid #087f5b ;
+    }
+    .menuOps.active{
+        transform: translateX(0);
+    }
+    .toogle{
+        width: 20%;
+        height: 100%;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+
+        
+    }
+    #botoncito{
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 5;
+        color: #ffffff;
+        font-size: 50px;
+        margin: 18px 10px 0px ;
+    }
+    
     .logo a{
         font-size: 1rem;
     }

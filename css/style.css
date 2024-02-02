@@ -55,7 +55,13 @@ nav{
     color: var(--color-white);
 }
 .menuOps a{
-    font-weight: 500;
+    font-weight: 300;
+    padding: 5px;
+
+    
+}
+.menuOps h2 a:hover{
+    outline: 1px solid #087f5b;
 }
 
 .home{
